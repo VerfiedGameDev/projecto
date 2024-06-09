@@ -3,7 +3,7 @@ $username = filter_input(INPUT_POST, 'username');
 $password = filter_input(INPUT_POST, 'password');
 if (!empty($username)) {
 if (!empty($password)) {
-$host = "localhost";
+$host = "http://127.0.0.1";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "youtube";
